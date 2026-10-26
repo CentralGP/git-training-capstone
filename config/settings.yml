@@ -1,0 +1,7 @@
+team: operations
+folders:
+    - inbox
+    - archive
+notifications:
+  enabled: yes
+  digest: weekly   

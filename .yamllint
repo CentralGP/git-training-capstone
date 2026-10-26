@@ -1,0 +1,15 @@
+# yamllint settings for this practice repository.
+# A small version of a real team style: two spaces per level, true/false only, no trailing spaces.
+
+extends: default
+
+rules:
+  document-start: disable
+  line-length:
+    max: 80
+  indentation:
+    spaces: 2
+    indent-sequences: true
+  truthy:
+    allowed-values: ['true', 'false']
+    level: error
